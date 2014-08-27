@@ -49,3 +49,5 @@ alias gmyemail="git config user.email \$1"
 # disk space and cls/clear
 alias left="df -h"
 alias cls="clear"
+
+alias vi='vim'
