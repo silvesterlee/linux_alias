@@ -9,7 +9,7 @@ install
 
   then simply run this to add in the aliases file to your .bashrc file;
 
-    echo 'source ~/linux_alias/.bash_aliases' >> ~/.bashrc
+    echo 'source ~/linux_alias/bash_aliases' >> ~/.bashrc
 
   then finally reload your .bashrc file to get the new aliases;
 
