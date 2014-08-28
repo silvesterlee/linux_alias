@@ -28,7 +28,7 @@ alias slog='svn log | more'
 alias sex='svn export'
 
 # reload bash aliases
-alias reload="source ~/.bashrc"
+alias rld="source ~/.bashrc"
 
 # git helpers
 alias gaa="git add -A"
