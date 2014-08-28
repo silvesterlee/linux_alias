@@ -31,12 +31,14 @@ alias sex='svn export'
 alias reload="source ~/.bashrc"
 
 # git helpers
+alias gaa="git add -A"
 alias gu="git pull"
 alias gp="git push"
 alias ga="git add ."
 alias gc="git commit -m \$1"
 alias gs="git status"
 alias gi="nano .gitignore"
+alias grv="git remote -v"
 
 # git config (globally)
 alias ggmyname="git config --global user.name \$1"
@@ -51,3 +53,5 @@ alias left="df -h"
 alias cls="clear"
 
 alias vi='vim'
+alias lf='ls /home/Administrator/temp/*'
+alias ubuntu='ssh 192.168.128.128 -l sam'

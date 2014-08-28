@@ -1,0 +1,11 @@
+#!/bin/bash
+
+exist=$(grep 'source ~\/linux_alias\/bash_aliases' ~/.bashrc)
+
+if [ -n "$exist" ]; then
+  echo 'linux alias has installed'
+else
+  echo 'source ~/linux_alias/bash_aliases' >> ~/.bashrc
+  source ~/.bashrc
+fi 
+
