@@ -54,4 +54,5 @@ alias cls="clear"
 
 alias vi='vim'
 alias lf='ls /home/Administrator/temp/*'
-alias ubuntu='ssh 192.168.128.128 -l sam'
+alias ubuntu='ssh 192.168.128.129 -l sam'
+alias s106='ssh 192.168.1.106 -l sam'
